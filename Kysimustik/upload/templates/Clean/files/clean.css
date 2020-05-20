@@ -1,0 +1,40 @@
+.row.question-wrapper.question-title-container {
+    padding: 10px!important;
+}
+
+.questionvalidcontainer {
+	padding-bottom: 0px!important; 
+}
+
+.form-control {
+	height: 32px;
+}
+
+.alert-warning {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+body div.row .question-container {
+    margin-bottom: 1em;
+}
+
+.col-sm-12.question-help:empty{
+	display:none;
+}
+
+.group-name {
+	margin: 0 -15px;
+}
+
+#welcome-container h1 {
+    margin: 0px;
+}
+
+.text-info.questionhelp {
+	margin-top:1em;
+}
+
+.question-help {
+    margin-top: 0em;
+}

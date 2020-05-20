@@ -1,0 +1,2348 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>UT LimeSurvey - Masina kavatsuse mõistmine</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/7e19e25d/css/font-awesome.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/68606e69/css/bootstrap.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/68606e69/css/yiistrap.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/lime-admin-common.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/lime-admin-colors.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/fonts.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/statistics.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/bootstrap-switch.min.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/jcarousel.responsive.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/attributeMap.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/attributeMapToken.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/lime-admin-noto.css" />
+<link rel="stylesheet" type="text/css" href="/tmp/assets/2d93716f/css/ut_custom.css" />
+<link rel="stylesheet" type="text/css" href="/styles-public/expressions.css" />
+<script type="text/javascript" src="tmp/assets/d3f7f430/jquery-2.2.4.min.js"></script>
+<script type="text/javascript" src="tmp/assets/390e9831/js/jquery-ui-1.11.4.min.js"></script>
+<script type="text/javascript" src="tmp/assets/24e208c1/js.cookie.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/notify.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/save.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/panelclickable.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/panelsanimation.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/sidemenu.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/bootstrap-switch.min.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/jquery.jcarousel.min.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/jcarousel.responsive.js"></script>
+<script type="text/javascript" src="tmp/assets/2d93716f/scripts/ut_custom.js"></script>
+<script type="text/javascript" src="tmp/assets/73fc2fbb/moment-with-locales.min.js"></script>
+<script type="text/javascript" src="tmp/assets/f09a2ba6/admin_core.js"></script>
+<script type="text/javascript" src="tmp/assets/f09a2ba6/notifications.js"></script>
+<script type="text/javascript" src="scripts/admin/expression.js"></script>
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="scripts/admin/printablesurvey.js"></script>
+<script type="text/javascript" src="tmp/assets/68606e69/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="scripts/deactivatedebug.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('body').popover({'selector':'a\x5Brel\x3Dpopover\x5D'});
+jQuery('body').tooltip({'selector':'a\x5Brel\x3Dtooltip\x5D'});
+/*]]>*/
+</script>
+
+
+        <link rel="stylesheet" type="text/css" href="upload/templates/Clean/css/print_template.css" />
+    </head>
+    <body>
+        <div id="limesurvey">
+            <h1>Masina kavatsuse mõistmine</h1>
+
+            <div class="survey-description"></div>
+
+            <div class="survey-welcome"><p>Hea vabatahtlik!</p>
+
+<p>Käesolevas uuringus osalemine on vabatahtlik ning Te võite uuringust loobuda iga hetk ilma, et sellega kaasneks tagajärgi. Uuring on kooskõlastatud Tartu Ülikooli inimuuringute eetika komiteega.<br />
+Küsimuste korral saate meiega kontakteeruda e-posti aadressil maarika.oidekivi@gmail.com. Õigustega seotud küsimuste korral palume pöörduda Tartu Ülikooli inimuuringute eetika komitee poole e-posti aadressil eetikakomitee@ut.ee või helistades numbril +372 737 6215.</p>
+
+<p>KÜSIMUSTIK</p>
+
+<p>Uurimustöö eesmärgiks on analüüsida Teie arusaamist masina kavatsustest. Selle üheks osaks on ka arusaamine digitaalsetest sümbolitest, mida masin visuaalselt esitab.</p>
+
+<p>Küsimustiku käigus näidatakse Teile erinevaid digitaalseid sümboleid ning küsitakse nende kohta arvamust. </p>
+
+<p><br />
+ANDMETE HANKIMINE, KASUTUS JA HOIUSTAMINE</p>
+
+<p>Uuringu raames kogutakse informatsiooni küsimustiku täitmise teel, Teie kohta käivat isiklikku informatsiooni, bioloogilisi materjale, video- ega helisalvestusi ei talletata.</p>
+
+<p>Küsimustikust saadud andmeid hoiustatakse vähemalt 3 aastat peale andmete põhjal valminud lõputöö esitamist ning nendele pääsevad ligi ainult uuringu korraldajad.</p>
+
+<p>Vajutades "Järgmine"</p>
+
+<ol>
+	<li> kinnitate, et Teid on informeeritud ülalmainitud uuringust ning olete teadlik läbiviidava uurimistöö eesmärgist ja uuringu metoodikast, riskidest ja võimalikust tervisekahjust; </li>
+	<li>teate, et uuringu käigus tekkivate küsimuste kohta annab teile täiendavat informatsiooni:
+	<ul>
+		<li> Maarika Oidekivi (maarika.oidekivi@ut.ee),</li>
+		<li>Tartu Ülikooli inimuuringute eetika komitee (eetikakomitee@ut.ee).</li>
+	</ul>
+	</li>
+</ol>
+</div>
+
+            <p class="x-questions">Küsimustikus on 39 küsimust</p>
+            <div class="survey-group g-row-odd">
+    <h2>Emotsioone väljendavad sümbolid</h2>
+    <div class="group-desc">
+        Järgnevalt näidatakse teile pilte erinevatest emotsioone väljendavatest sümbolitest. Valige emotsioon, mis seostub teile antud pildiga esimesena.
+    </div>
+    
+<div id="question292473" class=" mandatory">
+    <div class="q-text">
+        <h3>1 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/yllatus.png" style="width: 200px; height: 249px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292473_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292474" class=" mandatory">
+    <div class="q-text">
+        <h3>2 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/2019-12-11%2021_55_03-.png" style="width: 200px; height: 260px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292474_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292475" class=" mandatory">
+    <div class="q-text">
+        <h3>3 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/2019-12-11%2021_55_14-0_DSr5LLmIMv4jTyeG%20(1351%C3%971116).png" style="width: 200px; height: 254px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292475_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292476" class=" mandatory">
+    <div class="q-text">
+        <h3>4 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/ager.png" style="width: 200px; height: 261px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292476_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292477" class=" mandatory">
+    <div class="q-text">
+        <h3>5 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/disgust.png" style="width: 200px; height: 263px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292477_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292478" class=" mandatory">
+    <div class="q-text">
+        <h3>6 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/room.png" style="width: 200px; height: 249px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292478_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292479" class=" mandatory">
+    <div class="q-text">
+        <h3>7 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kurb.png" style="width: 200px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292479_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292480" class=" mandatory">
+    <div class="q-text">
+        <h3>8 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/hirmul.png" style="width: 200px; height: 190px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292480_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292481" class=" mandatory">
+    <div class="q-text">
+        <h3>9 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/yllatunud.png" style="width: 200px; height: 192px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292481_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292482" class=" mandatory">
+    <div class="q-text">
+        <h3>10 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/onnelik.png" style="width: 200px; height: 181px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292482_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292483" class=" mandatory">
+    <div class="q-text">
+        <h3>11 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kuri.png" style="width: 200px; height: 184px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292483_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292484" class=" mandatory">
+    <div class="q-text">
+        <h3>12 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/neutraalne.png" style="width: 200px; height: 188px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292484_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292485" class=" mandatory">
+    <div class="q-text">
+        <h3>13 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/keskendunud4.png" style="width: 200px; height: 144px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292485_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292486" class=" mandatory">
+    <div class="q-text">
+        <h3>14 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/keskendunud5.png" style="width: 200px; height: 145px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292486_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292487" class=" mandatory">
+    <div class="q-text">
+        <h3>15 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kurb4(1).png" style="width: 200px; height: 143px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292487_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292488" class=" mandatory">
+    <div class="q-text">
+        <h3>16 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/neutraalne4(1).png" style="width: 200px; height: 144px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292488_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292489" class=" mandatory">
+    <div class="q-text">
+        <h3>17 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/segaduses4.png" style="width: 200px; height: 142px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292489_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292490" class=" mandatory">
+    <div class="q-text">
+        <h3>18 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/%C3%BCllatunud4.png" style="width: 200px; height: 144px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292490_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292491" class=" mandatory">
+    <div class="q-text">
+        <h3>19 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/onnelik2.png" style="width: 200px; height: 144px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292491_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292492" class=" mandatory">
+    <div class="q-text">
+        <h3>20 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kurb3.png" style="width: 200px; height: 140px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292492_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292493" class=" mandatory">
+    <div class="q-text">
+        <h3>21 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/yllatunud3.png" style="width: 200px; height: 135px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292493_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292494" class=" mandatory">
+    <div class="q-text">
+        <h3>22 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/segaduses.png" style="width: 200px; height: 152px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292494_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292495" class=" mandatory">
+    <div class="q-text">
+        <h3>23 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kurb4.png" style="width: 200px; height: 114px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292495_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292496" class=" mandatory">
+    <div class="q-text">
+        <h3>24 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/room4.png" style="width: 200px; height: 111px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292496_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292497" class=" mandatory">
+    <div class="q-text">
+        <h3>25 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kuri4.png" style="width: 200px; height: 114px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292497_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292498" class=" mandatory">
+    <div class="q-text">
+        <h3>26 []<p>Mis emotsioon seostub antud pildiga esimesena?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/kurb5.png" style="width: 200px; height: 98px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292498_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="rõõm" class="input-radio" />
+			rõõm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kurbus" class="input-radio" />
+			kurbus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="hirm" class="input-radio" />
+			hirm
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="viha" class="input-radio" />
+			viha
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="vastikus" class="input-radio" />
+			vastikus
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="segadustunne" class="input-radio" />
+			segadustunne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="keskendunud" class="input-radio" />
+			keskendunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="üllatunud" class="input-radio" />
+			üllatunud
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="neutraalne" class="input-radio" />
+			neutraalne
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ei oska öelda" class="input-radio" />
+			ei oska öelda
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+			</div>
+<div class="survey-group g-row-odd">
+    <h2>Kavatsust väljendavad sümbolid</h2>
+    <div class="group-desc">
+        Järgnevalt näidatakse teile pilte erinevatest kavatsust väljendavatest sümbolitest.
+    </div>
+    
+<div id="question292467" class=" mandatory">
+    <div class="q-text">
+        <h3>27 []<p>Kujutage ette, et soovite ületada sõiduteed ja <strong>Teile läheneb auto,</strong> mis kuvab järgnevat valgustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/mersu_coming_to_stop2.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292467_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk peatub." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk peatub.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292513" class=" mandatory">
+    <div class="q-text">
+        <h3>28 []<p>Kujutage ette, et soovite ületada sõiduteed ja <strong>Teile läheneb auto,</strong> mis projitseerib tee peale järgneva sümboli. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/mersu_stopping2.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292513_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Projektsioon viitab, et sõiduk peatub." class="input-radio" />
+			Projektsioon viitab, et sõiduk peatub.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Projektsioon viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi." class="input-radio" />
+			Projektsioon viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et projektsioon võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et projektsioon võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292515" class=" mandatory">
+    <div class="q-text">
+        <h3>29 []<p>Kujutage ette, et soovite ületada sõiduteed ja <strong>Teile läheneb auto,</strong> mis kuvab oma tuuleklaasi kohal järgnevat valgustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/annab_teed.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292515_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk peatub." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk peatub.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292517" class=" mandatory">
+    <div class="q-text">
+        <h3>30 []<p>Kujutage ette, et soovite ületada sõiduteed ja <strong>Teile läheneb auto,</strong> mis kuvab oma tuuleklaasi kohal järgnevat valgustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/soitmine.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292517_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk peatub." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk peatub.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk ei muuda oma tegutsemist ning jätkab oma sõitu samamoodi.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292512" class=" mandatory">
+    <div class="q-text">
+        <h3>31 []<p>Kujutage ette, et soovite ületada sõiduteed ja ülekäiguraja ees <strong>on peatunud </strong>auto<strong>,</strong> mis kuvab järgnevat valdustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/mersu_go_ahead2.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292512_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk annab mulle teed." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk annab mulle teed.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk alustab kohe liikumist." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk alustab kohe liikumist.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292518" class=" mandatory">
+    <div class="q-text">
+        <h3>32 []<p>Kujutage ette, et soovite ületada sõiduteed ja ülekäiguraja ees <strong>on peatunud</strong> auto mis<strong>,</strong> kuvab oma tuuleklaasi kohal järgnevat valgustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/annab_teed.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292518_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk annab mulle teed." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk annab mulle teed.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk alustab kohe liikumist." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk alustab kohe liikumist.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292516" class=" mandatory">
+    <div class="q-text">
+        <h3>33 []<p>Kujutage ette, et soovite ületada sõiduteed ja ülekäiguraja ees <strong>on peatunud</strong> auto<strong>,</strong> mis kuvab oma tuuleklaasi kohal järgnevat valgustablood. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/hakkab_soitma.gif" style="width: 350px; height: 197px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292516_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk annab mulle teed." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk annab mulle teed.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tablool kujutatu viitab, et sõiduk alustab kohe liikumist." class="input-radio" />
+			Tablool kujutatu viitab, et sõiduk alustab kohe liikumist.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et tablool kujutatu võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292514" class=" mandatory">
+    <div class="q-text">
+        <h3>34 []<p>Kujutage ette, et soovite ületada sõiduteed ja ülekäiguraja ees<strong> on peatunud </strong>auto<strong>,</strong> mis projitseerib tee peale järgneva sümboli. Kuidas tõlgendate olukorda?</p>
+
+<p><img alt="" src="upload/surveys/124379/images/mersu_yletee2.gif" style="width: 257px; height: 230px;" /></p>
+ <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292514_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust." class="input-radio" />
+			Tegu on dekoratiivse elemendiga, mis ei oma minu kui jalakäija jaoks mingit tähendust.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Projektsioon viitab, et sõiduk annab mulle teed." class="input-radio" />
+			Projektsioon viitab, et sõiduk annab mulle teed.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Projektsioon viitab, et sõiduk alustab kohe liikumist." class="input-radio" />
+			Projektsioon viitab, et sõiduk alustab kohe liikumist.
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Arvan, et projektsioon võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust." class="input-radio" />
+			Arvan, et projektsioon võib olla informatsioon jalakäijale, aga ma ei mõista selle tähendust.
+	</li>
+	<li class=" other other-item">
+<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Muu" class="input-radio" /> Muu
+			<div class="input-other">&nbsp;</div>
+	</li>
+</ul>
+    </div>
+    
+				</div>
+			</div>
+<div class="survey-group g-row-odd">
+    <h2>Taustinfo</h2>
+    
+    
+<div id="question292468" class=" mandatory">
+    <div class="q-text">
+        <h3>35 []Sugu <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292468_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Naine" class="input-radio" />
+			Naine
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Mees" class="input-radio" />
+			Mees
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292469" class=" mandatory">
+    <div class="q-text">
+        <h3>36 []Vanus <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292469_default' class='em_default emtip '>
+    
+    Siia väljale võib sisestada ainult numbreid.</div>
+<br />
+Kirjutage vastus siia:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        <ul>
+	<li>
+		<div class="input-text" style="width:10em; height:2em;" title="&lt;div id='vmsg_292469_default' class='em_default emtip '&gt;
+    &lt;span class='fa fa-exclamation-circle' aria-hidden=&quot;true&quot;&gt;&lt;/span&gt;
+    Siia väljale võib sisestada ainult numbreid.&lt;/div&gt;
+&lt;br /&gt;
+Kirjutage vastus siia:">&nbsp;</div>
+		</li>
+	</ul>
+    </div>
+    
+				</div>
+<div id="question292470" class=" mandatory">
+    <div class="q-text">
+        <h3>37 []Kas kasutate igapäevaselt suhtluses mõnda arvutitarkvara või mobiilirakendust (Facebook, Slack, Hangouts, Teams, Skype, WhatsApp vms)? <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292470_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Jah" class="input-radio" />
+			Jah
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Ei" class="input-radio" />
+			Ei
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292471" class=" mandatory">
+    <div class="q-text">
+        <h3>38 []Kas Teil on toimiv e-maili aadress? <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292471_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Jah" class="input-radio" />
+			Jah
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="Ei" class="input-radio" />
+			Ei
+	</li>
+</ul>
+    </div>
+    
+				</div>
+<div id="question292472" class=" mandatory">
+    <div class="q-text">
+        <h3>39 []Viimane kord kui valimas käisin, ... <span class="mandatory">*</span></h3>
+        
+        <p class="q-type-help"><div id='vmsg_292472_default' class='em_default emtip '>
+    
+    Valige üks järgnevatest vastustest</div>
+<br />
+Palun valige <strong>ainult üks</strong> järgnevatest:</p>
+        
+        
+        
+    </div>
+    <div class="q-answer">
+        
+<ul class=" colstyle-ul">
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="kasutasin e-valimiste võimalust" class="input-radio" />
+			kasutasin e-valimiste võimalust
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="käisin valimisjaoskonnas" class="input-radio" />
+			käisin valimisjaoskonnas
+	</li>
+		<li class="">
+		<img src="upload/templates/Clean/files/print_img_radio.png" width="14" height="14" alt="ma pole kunagi valimas käinud" class="input-radio" />
+			ma pole kunagi valimas käinud
+	</li>
+</ul>
+    </div>
+    
+				</div>
+			</div>
+
+            
+            <p class="submit-by">
+                <br />
+                01.07.2020 &ndash; 00:00<br />
+                <br />
+                Esita küsimustik.<br />
+                Täname teid, et vastasite küsimustikule.<br />
+            </p>
+        </div>
+
+    </body>
+</html>

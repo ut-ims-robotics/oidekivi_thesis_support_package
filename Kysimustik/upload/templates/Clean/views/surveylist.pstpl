@@ -1,0 +1,140 @@
+{CHECKJAVASCRIPT}
+
+<div class="col-sm-12 alert alert-danger" style="margin-top:10px;"><p class="" style="color:red;">NB! LimeSurvey'i on üle läinud uuele versioonile 2.5+</p><p>
+Kui tekib probleeme LimeSurvey’isse sisenemisega või vigasid küsimustike/küsimuste toimimisel, siis palume nendest teada anda aadressil <a href="mailto:eope@ut.ee?Subject=UT%20LimeSurvey%20küsitlus" target="_top">eope@ut.ee</a>.</p></div>
+
+<div class="row" id="surveys-list-container">
+    <div class="jumbotron" id="surveys-list-jumbotron">
+        <div class="container text-left">
+            <div id="frontText" class="col-sm-7">
+                <p>
+                    {SITELOGO}
+                </p>
+                <p class="site-name text-center" lang="et">
+                    <!--{SITENAME}-->Tartu Ülikooli veebipõhiste küsimustike koostamise keskkond
+                </p>
+                
+                <p class="site-name text-center smaller" lang="et">
+                    <!--{SITENAME}-->Online Survey Tool for University of Tartu
+                </p>
+                <p id="lbtn" style="text-align:center;padding-top:30px;display:none;">
+                    <a href="//survey.ut.ee/admin">
+                        <button type="button" class="btn btn-default btn-lg">Sisene / Enter</button>
+                    </a>
+                </p>
+            </div>
+        <div id="lkast" class="col-sm-5"></div>
+        </div>
+    </div>
+
+
+    <!--<div class="col-xs-12 site-name">
+
+    </div>-->
+    
+    <div class="jumbotron frontpage" style="text-align:left;font-size:16px;">
+        <div class="container">
+            <div class="col-sm-6">
+                <p lang="et">
+                    LimeSurvey on keskkond veebipõhiste küsimustike koostamiseks ja läbiviimiseks. 
+                    TÜ töötajad ja üliõpilased saavad LimeSurvey keskkonda siseneda TÜ arvutivõrgu kasutajatunnuse ja parooliga.
+                </p>
+                <p lang="et">
+                    Kasutajatugi: <a href="mailto:eope@ut.ee?Subject=UT%20LimeSurvey%20küsitlus" target="_top">eope@ut.ee</a>
+                <br>
+                    Kasutamisjuhend: <a href="https://sisu.ut.ee/juhendid/limesurvey" target="_blank">https://sisu.ut.ee/juhendid/limesurvey</a>
+                </p>
+            </div>
+            <div class="col-sm-6">
+                <p lang="et">
+                    LimeSurvey provides the possibility to make online surveys.
+                    The staff and students of University of Tartu can log into the system with their UT username and password.
+                </p>
+                <p lang="et">
+                    Helpdesk: <a href="mailto:eope@ut.ee?Subject=UT%20LimeSurvey%20Help" target="_top">eope@ut.ee</a>
+                <br>
+                    Instructions (in Estonian): <a href="https://sisu.ut.ee/juhendid/limesurvey" target="_blank">https://sisu.ut.ee/juhendid/limesurvey</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<div id="surveyListFooter" class="well">
+    <div class="container">
+        <p>
+            <a href="http://www.limesurvey.org" target="_blank">
+                <img src="{TEMPLATEURL}poweredby.png" alt="LimeSurvey Survey Software" />
+                </a>
+                <br />
+                <a href="http://www.limesurvey.org" target="_blank">
+                The Online Survey Tool
+                </a>
+                - Free & Open Source
+                <br />
+        </p>
+    </div>
+</div>
+<style type="text/css">
+html body .navbar.navbar-default.navbar-fixed-top {
+		background-color: #668E2D!important;
+}
+	
+.btn-default {
+    color: #ffffff!important;
+    background-color: rgb(102, 142, 45);
+    border-color: rgb(102, 142, 45);
+}
+
+.btn-default:hover, .btn-primary:hover {
+    color: #ffffff!important;
+    background-color: #2e490a;
+    border-color: #74898a;
+}
+.btn-default:active:hover, .btn-default.active:hover, .btn-default:active:focus, .btn-default.active:focus, .btn-default:active.focus  {
+    color: #ffffff!important;
+    background-color: #2e490a;
+    border-color: #74898a;
+}
+
+#surveys-list-jumbotron #loginform a, #surveys-list-jumbotron #loginform br {
+    display:none;
+}
+
+#loginform input {
+    box-shadow: 1px 1px 10px #c9d8d0;
+    margin-bottom:20px;
+    border-width: 2px;
+    border: 1px solid #dce4ec;
+}
+
+#loginform select#loginlang {
+    color: #acb6c0;
+}
+
+#loginform label {
+    display:none;
+}
+
+#loginform button.btn.btn-default[name="login_submit"] {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 1px 1px 10px #9e9e9e;
+}
+
+#loginform select#authMethod {
+    display: none;
+}
+
+p.smaller {
+    font-size: medium!important;
+}
+
+@media screen and (min-width: 768px){
+	.container .jumbotron, .container-fluid .jumbotron {
+		padding-left: 30px!important;
+		padding-right: 30px!important;
+	}
+}
+</style>

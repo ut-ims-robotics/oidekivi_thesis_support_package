@@ -1,0 +1,5 @@
+<div class="row privacy">
+    <div class="col-sm-12 col-centered">
+        <p class="alert alert-warning">{PRIVACYMESSAGE}</p>
+    </div>
+</div>
