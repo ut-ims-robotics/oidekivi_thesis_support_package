@@ -1,5 +1,7 @@
 # HSI 2021 – Replication package
 
+[![DOI](https://zenodo.org/badge/265605692.svg)](https://zenodo.org/badge/latestdoi/265605692)
+
 This repository contains the replication package and dataset of the two following papers submitted to HSI 2021
 
 - **Interpreting externally expressed intentions of an autonomous vehicle**
