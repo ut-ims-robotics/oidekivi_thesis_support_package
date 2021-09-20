@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/265605692.svg)](https://zenodo.org/badge/latestdoi/265605692)
 
-This repository contains the replication package and dataset of the two following papers submitted to HSI 2021
+This repository contains the replication package and dataset of the two following papers presented at HSI 2021
 
 - **Interpreting externally expressed intentions of an autonomous vehicle**
 - **Identifying emotions from facial expression displays of robots - results from a survey study**
@@ -26,8 +26,8 @@ If the content in this repository is helping your research, please cite us as fo
   author={Maarika Oidekivi and Alexander Nolte and Alvo Aabloo and Karl Kruusamäe},
   booktitle = {2021 14th International Conference on Human System Interaction (HSI)},
   year = {2021},
-  pages = {to appear},
-  doi={to appear}
+  doi={10.1109/HSI52170.2021.9538693},
+  publisher={IEEE}
 }
 ```
 ```
@@ -36,8 +36,8 @@ If the content in this repository is helping your research, please cite us as fo
   author={Maarika Oidekivi and Alexander Nolte and Alvo Aabloo and Karl Kruusamäe},
   booktitle = {2021 14th International Conference on Human System Interaction (HSI)},
   year = {2021},
-  pages = {to appear},
-  doi={to appear}
+  doi={10.1109/HSI52170.2021.9538774},
+  publisher={IEEE}
 }
 ```
 
